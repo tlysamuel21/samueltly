@@ -10,7 +10,6 @@ Welcome to my personal portfolio and project site! I’m a Mathematics finalist 
 - 💡 Passionate about climate modeling, fluid mechanics, and AI applications in Earth sciences  
 - 🧠 Experience in supervised machine learning, numerical methods, and scientific computing  
 - 🛠️ Languages: Python, R, MATLAB, C++, LaTeX  
-- ✉️ Contact: samuel.tlyiu@gmail.com | [My CV](https://github.com/tlysamuel21/samueltly/blob/main/Samuel_Yiu_CV.pdf)
 
 ---
 
