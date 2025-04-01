@@ -91,7 +91,9 @@ As part of Tier 3 (nowcasting), I implemented a radar and lightning-based precip
 
 - Compared 1-channel (radar only) vs. 2-channel (radar + lightning) models  
 - Added custom **forecast animations** and **MSE-based evaluation**  
-- Explored storm evolution and reflected on forecast quality
+- Explored storm evolution and reflected on forecast quality  
+- This notebook serves as a **representative example** of my implementation and understanding of ECMWF course content.
+
 
 > *All model/data credit to ECMWF, FBK, and Arpae.*
 
