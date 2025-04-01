@@ -6,11 +6,10 @@ Welcome to my personal portfolio and project site! I’m a Mathematics finalist 
 
 ## 🌍 About Me
 
-- 🎓 Final-year MSci Mathematics student (Dean’s List), Imperial College London  
+- 🎓 Final-year MSci Mathematics student, Imperial College London  
 - 💡 Passionate about climate modeling, fluid mechanics, and AI applications in Earth sciences  
 - 🧠 Experience in supervised machine learning, numerical methods, and scientific computing  
 - 🛠️ Languages: Python, R, MATLAB, C++, LaTeX  
-- ✉️ Contact: samuel.tlyiu@gmail.com | [My CV](Samuel_Yiu_CV.pdf)
 
 ---
 
@@ -72,7 +71,6 @@ This two-part coursework involved rigorous implementation of machine learning te
 Finalist in an international ML competition focused on solar energy forecasting.
 
 - Developed a **CNN model** to predict cloud coverage and sunlight for solar power optimization
-- Top performer and **selected to represent Imperial College London** in the finals
 - Worked with real climate satellite imagery and used AI to improve clean energy outcomes
 
 🔗 [ClimateHack.AI](https://climatehack.ai/#:~:text=Find%20out%20about%20our%20progress,carbon%20emissions%20with%20machine%20learning.)
