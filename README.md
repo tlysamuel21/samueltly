@@ -87,7 +87,8 @@ Finalist in an international ML competition focused on solar energy forecasting.
 🛰️ **TrajGRU Nowcasting Project**  
 As part of Tier 3 (nowcasting), I implemented a radar and lightning-based precipitation forecasting notebook using pretrained **TrajGRU models** provided by FBK and Arpae.
 
-📎 [NWC_model.ipynb – TrajGRU Nowcasting Example](https://tlysamuel21.github.io/NWC-model.ipynb)
+📎 [NWC_model.ipynb – TrajGRU Nowcasting Example](https://tlysamuel21.github.io/NWC-model.ipynb)  
+▶️ [Open in Google Colab](https://colab.research.google.com/github/tlysamuel21/tlysamuel21/blob/main/NWC-model.ipynb)
 
 - Compared 1-channel (radar only) vs. 2-channel (radar + lightning) models  
 - Added custom **forecast animations** and **MSE-based evaluation**  
