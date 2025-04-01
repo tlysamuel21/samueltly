@@ -6,10 +6,11 @@ Welcome to my personal portfolio and project site! I’m a Mathematics finalist 
 
 ## 🌍 About Me
 
-- 🎓 Final-year MSci Mathematics student, Imperial College London  
+- 🎓 Final-year MSci Mathematics student (Dean’s List), Imperial College London  
 - 💡 Passionate about climate modeling, fluid mechanics, and AI applications in Earth sciences  
 - 🧠 Experience in supervised machine learning, numerical methods, and scientific computing  
 - 🛠️ Languages: Python, R, MATLAB, C++, LaTeX  
+- ✉️ Contact: samuel.tlyiu@gmail.com | [My CV](https://github.com/tlysamuel21/samueltly/blob/main/Samuel_Yiu_CV.pdf)
 
 ---
 
@@ -40,7 +41,7 @@ This two-part coursework involved rigorous implementation of machine learning te
   - Designed and trained **logistic regression** and **kernel logistic regression** from scratch  
   - Used AUC-PR and precision/recall metrics to evaluate classifier sensitivity to minority classes
 
-📎 [See Coursework 1 notebook](02079104_Coursework1.ipynb)
+📎 [See Coursework 1 notebook](https://github.com/tlysamuel21/samueltly/blob/main/02079104_Coursework1.ipynb)
 
 ---
 
@@ -62,7 +63,7 @@ This two-part coursework involved rigorous implementation of machine learning te
   - Visualized class separability and evaluated cluster quality with the **Davies-Bouldin Index**  
   - Analyzed distance metrics: cosine vs resistance distances
 
-📎 [See Coursework 2 notebook](02079104_Coursework2_Part1.ipynb)
+📎 [See Coursework 2 notebook](https://github.com/tlysamuel21/samueltly/blob/main/02079104_Coursework2_Part1.ipynb)
 
 ---
 
@@ -71,6 +72,7 @@ This two-part coursework involved rigorous implementation of machine learning te
 Finalist in an international ML competition focused on solar energy forecasting.
 
 - Developed a **CNN model** to predict cloud coverage and sunlight for solar power optimization
+- Top performer and **selected to represent Imperial College London** in the finals
 - Worked with real climate satellite imagery and used AI to improve clean energy outcomes
 
 🔗 [ClimateHack.AI](https://climatehack.ai/#:~:text=Find%20out%20about%20our%20progress,carbon%20emissions%20with%20machine%20learning.)
@@ -95,9 +97,8 @@ Finalist in an international ML competition focused on solar energy forecasting.
 - Developed a simplified model for **blood flow under oscillating pressure**
 - Presented the **Weissenberg effect** and contrasted viscoelastic vs Newtonian behaviors
 
-📄 [Read the PDF](M2R_Final_Report%20(1).pdf)
+📄 [Read the PDF](https://github.com/tlysamuel21/samueltly/blob/main/M2R_Final_Report%20(1).pdf)
 
 ---
 
 Thanks for visiting — I’m currently looking for **AI + climate-focused opportunities**, especially those aligned with environmental modeling, forecasting, or scientific data analysis.
-
