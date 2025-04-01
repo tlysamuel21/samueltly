@@ -14,26 +14,56 @@ Welcome to my personal portfolio and project site! I’m a Mathematics finalist 
 
 ---
 
-## 🤖 AI & Data Science Projects
+## 🤖 AI & Scientific Machine Learning Projects
 
-### 🔹 Method of Data Science – Coursework Overview
+### 🔹 Methods for Data Science (Imperial College London)
 
-This coursework focused on supervised learning using a **real-world dataset from nanoelectrode experiments**, where the goal was to predict the **capacitance** of materials from numerical features.
+This two-part coursework involved rigorous implementation of machine learning techniques without the use of high-level libraries like scikit-learn, focusing on both structured data and image-based scientific datasets.
 
-#### 📌 Task 1 – Regression
-- Used a dataset with 13 numerical features from nanoelectrode samples
-- Built and evaluated **Random Forest** and **Multi-layer Perceptron (MLP)** models
-- Compared models using **MSE** and **R² scores**, with and without feature bagging
-- Tuned model depth and leaf sizes using cross-validation
+#### **Coursework 1 – Supervised Learning from Scientific Data**
 
-#### 📌 Task 2 – Classification
-- Applied **k-Nearest Neighbours (k-NN)** and **Logistic vs Kernel Logistic Regression**
-- Explored non-linear kernels and their impact on decision boundaries
+**Goal**: Predict electrical capacity of graphene-based electrodes and classify brain tumor types using fully custom models.
 
-This project highlighted my skills in model building, data preprocessing, feature selection, and evaluation.
+- 📊 **Regression Task**:  
+  - Dataset: 558 graphene-based supercapacitor samples (12 features)  
+  - Built models from scratch: **Decision Trees**, **Random Forests**, and **Gradient Boosted Trees**  
+  - Implemented custom 5-fold cross-validation and evaluated models with **MSE** and **R²**  
+  - Analysed feature importance using **Out-of-Bag (OOB)** estimation
 
-📎 [Coursework 1 (ML models)](02079104_Coursework1.ipynb)  
-📎 [Coursework 2 (Interpolation & Trees)](02079104_Coursework2_Part1.ipynb)
+- 🧠 **Multi-Layer Perceptron**:  
+  - Developed a fully vectorized **2-hidden-layer MLP** in NumPy  
+  - Compared optimizers: SGD, SGD with momentum, and **Nesterov’s Accelerated Gradient**  
+  - Conducted convergence testing and hyperparameter tuning
+
+- 🧪 **Classification Task**:  
+  - Dataset: Brain tumor diagnosis (3-class classification)  
+  - Implemented **k-NN**, **weighted k-NN**, and **2-step hierarchical k-NN**  
+  - Designed and trained **logistic regression** and **kernel logistic regression** from scratch  
+  - Used AUC-PR and precision/recall metrics to evaluate classifier sensitivity to minority classes
+
+📎 [See Coursework 1 notebook](02079104_Coursework1.ipynb)
+
+---
+
+#### **Coursework 2 – Deep Learning & Manifold Learning**
+
+**Goal**: Classify star types from telescope images and analyze geometric structure of latent feature spaces.
+
+- 🌌 **Convolutional Neural Network for Star Classification**  
+  - Dataset: 648 stellar images (Euclid telescope, 32×32 grayscale)  
+  - Built a **custom CNN in PyTorch** with convolution, max-pooling, ReLU, and softmax layers  
+  - Integrated **early stopping**, **L2 regularization**, and compared against class imbalance techniques:  
+    - Reweighted loss  
+    - Data augmentation (random rotations)
+
+- 📉 **Dimensionality Reduction of High-Dimensional Embeddings**  
+  - Reduced 180D feature vectors using:  
+    - **Principal Component Analysis (PCA)**  
+    - **Graph-based Isomap** with cosine distances and spectral embeddings  
+  - Visualized class separability and evaluated cluster quality with the **Davies-Bouldin Index**  
+  - Analyzed distance metrics: cosine vs resistance distances
+
+📎 [See Coursework 2 notebook](02079104_Coursework2_Part1.ipynb)
 
 ---
 
@@ -72,3 +102,4 @@ Finalist in an international ML competition focused on solar energy forecasting.
 ---
 
 Thanks for visiting — I’m currently looking for **AI + climate-focused opportunities**, especially those aligned with environmental modeling, forecasting, or scientific data analysis.
+
