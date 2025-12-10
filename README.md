@@ -117,7 +117,6 @@ A **small, self-contained snippet** of the solver (including `stokes_solver.py`,
 
 This folder contains:
 - The full solver implementation  
-- Accompanying README  
 - Selected code infrastructure for reproducibility  
 
 (The original coursework repository is private due to university restrictions, but this public snippet is representative of the implementation quality and project structure.)
