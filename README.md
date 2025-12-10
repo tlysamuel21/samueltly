@@ -103,18 +103,24 @@ As part of Tier 3 (nowcasting), I implemented a radar and lightning-based precip
 
 ### 🧷 Mixed Finite Element Stokes Solver (Taylor–Hood Elements)
 
-As part of the MATH60022 “Finite Element Methods” module at Imperial College London, I implemented a mixed finite element solver for the incompressible Stokes equations on the unit square.
+As part of the MATH60022 “Finite Element Methods” module at Imperial College London, I implemented a mixed finite element solver for the incompressible Stokes equations using Taylor–Hood elements (vector P2 for velocity, P1 for pressure).
 
-- Used **Taylor–Hood elements** (vector P2 for velocity, P1 for pressure)  
-- Implemented Gaussian quadrature on reference elements and Jacobian mappings to physical space  
-- Assembled the **saddle-point system** \([A\ B^\top; B\ 0]\) using the symmetric gradient (strain) formulation  
-- Solved the global system with sparse direct solvers and verified accuracy via manufactured solutions and L² error norms  
-- The project was formally assessed and received **96/100** for numerical correctness, implementation quality, and documentation  
+- Assembled the symmetric-gradient (strain) viscosity matrix using Gaussian quadrature  
+- Mapped gradients from reference to physical elements via Jacobians  
+- Constructed and solved the saddle-point system \([A\ B^\top; B\ 0]\) with sparse LU factorisation  
+- Verified correctness via a manufactured analytical solution and L² error measurement  
+- Formally assessed and received **96/100 marks**
 
-🔗 Finite element project repository (coursework):  
-https://github.com/Imperial-MATH60022/finite-element-2025-tlysamuel21.git
+A **small, self-contained snippet** of the solver (including `stokes_solver.py`, finite element utilities, and documentation) is available in this repository:
 
-> Note: This repository is part of a course organisation and may be private; a cleaned and self-contained version of the Stokes solver is also available on request or as part of my application materials.
+👉 **[`stoke_fem_sample/`](./stoke_fem_sample/)**
+
+This folder contains:
+- The full solver implementation  
+- Accompanying README  
+- Selected code infrastructure for reproducibility  
+
+(The original coursework repository is private due to university restrictions, but this public snippet is representative of the implementation quality and project structure.)
 
 ---
 
