@@ -7,7 +7,7 @@ Welcome to my personal portfolio and project site! I’m a Mathematics finalist 
 ## 🌍 About Me
 
 - 🎓 Final-year MSci Mathematics student (Dean’s List), Imperial College London  
-- 💡 Passionate about climate modeling, fluid mechanics, and AI applications in Earth sciences  
+- 💡 Interested in climate and environmental modelling, scientific software engineering, and data-driven methods in the Earth sciences  
 - 🧠 Experience in supervised machine learning, numerical methods, and scientific computing  
 - 🛠️ Languages: Python, R, MATLAB, C++, LaTeX  
 
@@ -95,8 +95,26 @@ As part of Tier 3 (nowcasting), I implemented a radar and lightning-based precip
 - Explored storm evolution and reflected on forecast quality  
 - This notebook serves as a **representative example** of my implementation and understanding of ECMWF course content.
 
-
 > *All model/data credit to ECMWF, FBK, and Arpae.*
+
+---
+
+## 🧮 Finite Element & Numerical PDE Projects
+
+### 🧷 Mixed Finite Element Stokes Solver (Taylor–Hood Elements)
+
+As part of the MATH60022 “Finite Element Methods” module at Imperial College London, I implemented a mixed finite element solver for the incompressible Stokes equations on the unit square.
+
+- Used **Taylor–Hood elements** (vector P2 for velocity, P1 for pressure)  
+- Implemented Gaussian quadrature on reference elements and Jacobian mappings to physical space  
+- Assembled the **saddle-point system** \([A\ B^\top; B\ 0]\) using the symmetric gradient (strain) formulation  
+- Solved the global system with sparse direct solvers and verified accuracy via manufactured solutions and L² error norms  
+- The project was formally assessed and received **96/100** for numerical correctness, implementation quality, and documentation  
+
+🔗 Finite element project repository (coursework):  
+https://github.com/Imperial-MATH60022/finite-element-2025-tlysamuel21.git
+
+> Note: This repository is part of a course organisation and may be private; a cleaned and self-contained version of the Stokes solver is also available on request or as part of my application materials.
 
 ---
 
@@ -105,7 +123,7 @@ As part of Tier 3 (nowcasting), I implemented a radar and lightning-based precip
 ### 🥇 _Best Second-Year Group Project_  
 **An Investigation of Shearing Flows of Newtonian and Non-Newtonian Fluids**
 
-- Modeled Couette and Poiseuille flows using Navier-Stokes and Oldroyd-B models  
+- Modeled Couette and Poiseuille flows using Navier–Stokes and Oldroyd-B models  
 - Implemented simulations for shear-thinning and shear-thickening fluids  
 - Developed a simplified model for **blood flow under oscillating pressure**  
 - Presented the **Weissenberg effect** and contrasted viscoelastic vs Newtonian behaviors
@@ -114,4 +132,4 @@ As part of Tier 3 (nowcasting), I implemented a radar and lightning-based precip
 
 ---
 
-Thanks for visiting — I’m currently looking for **AI + climate-focused opportunities**, especially those aligned with environmental modeling, forecasting, or scientific data analysis.
+Thanks for visiting — I am open to opportunities in **scientific software engineering**, **numerical modelling**, and **environmental or geophysical applications**, especially roles that combine computation, data, and physical insight.
