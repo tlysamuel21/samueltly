@@ -113,7 +113,7 @@ As part of the MATH60022 “Finite Element Methods” module at Imperial College
 
 A **small, self-contained snippet** of the solver (including `stokes_solver.py`, finite element utilities, and documentation) is available in this repository:
 
-👉 **[`stoke_fem_sample/`](./stoke_fem_sample/)**
+👉 **[`stoke_fem_sample/`](https://github.com/tlysamuel21/samueltly/blob/main/stoke_fem_sample/)**
 
 This folder contains:
 - The full solver implementation  
